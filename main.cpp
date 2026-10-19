@@ -83,11 +83,11 @@ int main()
     return 0;
 }
 
-void endScreen(char &input, long &najbolje_vrjeme)
+void endScreen(char &input, long &besttime)
 {   
-    std::cout << "Najbolje Vrjeme: " << najbolje_vrjeme/60 << ":"<< najbolje_vrjeme%60 << std::endl;
-    std::cout << "1-Igraj Ponovo!" << std::endl;
-	std::cout << "0-Izadji" << std::endl;
+    std::cout << "Best time: " << besttime/60 << ":"<< besttime%60 << std::endl;
+    std::cout << "1-Play Again!" << std::endl;
+	std::cout << "0-Leave" << std::endl;
     do
     { 
 	    input = getch();
